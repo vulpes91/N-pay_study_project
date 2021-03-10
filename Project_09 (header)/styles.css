@@ -1,0 +1,144 @@
+/* Цвета
+    #F4F7FC - светло голубой
+    #2D2D2D - заголовки и кнопки
+    #000 - чёрный для текста 
+
+*/
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box; 
+    margin: 0;
+}
+
+body {
+    color: #2D2D2d;
+}
+
+.nav {
+    height: 100px;
+    background-color: #fff;
+    padding: 24px 0;
+}
+
+.nav-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 52px;
+}
+
+.nav-list {
+   color: #2D2D2d;
+   text-decoration: none;
+}
+
+.nav-list a {
+   color: #2D2D2d;
+   text-decoration: none;
+   margin-right: 62px;
+}
+
+.nav-list a:last-child {
+   margin-right: 0;
+}
+
+.login {
+    height: 40px;
+    color: #2D2D2d;
+}
+
+.login a:last-child {
+    margin-right: 0;
+}
+
+login-link {
+    color: #2D2D2d;
+    text-decoration: none;
+}
+
+.login a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right: 0;
+    height: 40px;
+    background: #2D2D2D;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 40px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+
+    transition: all .5s linear;
+}
+
+.button:hover {
+    background-color: #007FFC;
+}
+
+
+.main {
+    background-color: #F4F7FC;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.header-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1170px;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.header-content p {
+    margin: 0;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    max-width: 520px;
+}
+
+.header-title {
+    display: block;
+    max-width: 550px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.4;
+
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.header-img {
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+img {
+    display: block;
+}
